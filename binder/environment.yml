@@ -1,0 +1,9 @@
+name: Python-course-BCGS-2020
+
+dependencies:
+  - python>=3.7
+  - numpy
+  - matplotlib
+  - scipy
+  - sympy
+  - colorama
