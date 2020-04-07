@@ -7,3 +7,8 @@ master level how to efficiently and flexibly solve scientific
 programming problems with the easy-to-learn, high-level programming
 language Python. The course specifically addresses students with no
 prior programming experience.
+
+## Start of an interactive session
+
+ Just click the following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=tree/index.ipynb)
+ to launch an interactive session of the course materials.
