@@ -10,5 +10,5 @@ prior programming experience.
 
 ## Start of an interactive session
 
- Just click the following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=tree/index.ipynb)
+ Just click the following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=lab/index.ipynb)
  to launch an interactive session of the course materials.
