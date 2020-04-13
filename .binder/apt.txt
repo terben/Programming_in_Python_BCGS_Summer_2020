@@ -1,3 +1,6 @@
+texlive
+texlive-xetex
+texlive-generic-extra
 texlive-latex-base
 texlive-latex-recommended
 texlive-science
