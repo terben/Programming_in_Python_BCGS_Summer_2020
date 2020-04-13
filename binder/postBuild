@@ -1,3 +1,4 @@
+install_c_kernel --user
 jupyter labextension install @jupyterlab/latex
 jupyter lab build
 mkdir ${HOME}/.jupyter
