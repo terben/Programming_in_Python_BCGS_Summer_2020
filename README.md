@@ -11,4 +11,9 @@ prior programming experience.
 ## Start of an interactive session
 
  Just click the following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=lab)
- to launch an interactive session of the course materials.
+ to launch an interactive `Jupyter-Lab` session of the course materials.
+
+The following button gives you a `Jupyter-Notebook` session instead:
+[![Binder](https://binderhub.astro.uni-bonn.de\
+/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_\
+in_Python_BCGS_Summer_2020/master?urlpath=tree)
