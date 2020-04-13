@@ -2,7 +2,7 @@
 
 This file gives examples of Markdown typesetting.
 
-## Empühasis of text
+## Emphasis of text
 
 Here some normal text.
 
@@ -35,12 +35,13 @@ from all well-known languages.
 
 Short syntax phrases within the text are done like
 `print("Hello World!")`. Language specific and larger
-blocks are done like
+blocks are done like this for `C`:
 
 ```c
 #include<stdio.h>
 
 int main(void) {
+  /* This is a simple C program */
   int a, b;
 
   a = 1;
@@ -54,6 +55,8 @@ int main(void) {
 or
 
 ```python
+# This is a simple Python program
+
 a = 1
 b = 2
 print("Hello World!")
