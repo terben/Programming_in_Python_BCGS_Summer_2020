@@ -13,5 +13,4 @@ dependencies:
   - pip
   - pip:
     - jupyterlab_latex
-    - jupyter_c_kernel
     
