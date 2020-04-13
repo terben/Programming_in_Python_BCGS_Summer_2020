@@ -1,0 +1,85 @@
+% Short demo of the listing-package to include source code
+% into LaTeX documents
+\documentclass[12pt, ngerman]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{csquotes}
+
+% Zum Einbinden von Programmcode verwenden wir das listings-Paket
+\usepackage{listings}
+
+% textcomp is necessary to typeset quotation marks correctly in
+% code-segments (option upquote=true in listings)
+\usepackage{textcomp}
+
+% For syntax highlighting:
+\usepackage{xcolor}
+
+% lstset sets global settings for the listings package
+
+% The following settings allow th usage of German-Umlaute
+% and the tilde in listing-environments:
+\lstset{
+  basicstyle=\ttfamily,
+  literate={~} {$\sim$}{1} % set tilde as a literal
+           {ö}{{\"o}}1
+           {ä}{{\"a}}1
+           {ü}{{\"u}}1
+           {ß}{{\ss}}1
+           {Ö}{{\"O}}1
+           {Ä}{{\"A}}1
+           {Ü}{{\"U}}1
+}
+
+% style for bash-shell code
+\lstdefinestyle{bash}{language=bash,%
+ commentstyle=\color{red},       % comment style
+ keywordstyle=\color{blue},      % keyword style
+ upquote=true,     % correct quotation marks in Bash-Codes
+ showspaces=false, % Do not emphasize Spaces
+ showstringspaces=false,
+ breaklines=true,  % split long code-lines
+ postbreak=\mbox{{$\hookrightarrow$}\space}
+}
+
+% define a new enviroenment for bash-codes within the
+% document
+\lstnewenvironment{lstbash}
+{ \lstset{style=bash} } {}
+
+\newcommand{\lstinputbash}{\lstinputlisting[style=bash]}
+
+\begin{document}
+%
+\section{Codes}
+Insert code - no specific proghramming language - with the
+\texttt{lstlistings}-enviroenment:
+%
+\begin{lstlisting}
+user$ ls
+datei_1.txt  datei_2.txt
+\end{lstlisting}
+%
+Now insert some \texttt{bash}-code. We defined an environment for it:
+%
+\begin{lstbash}
+# Here a simple Bash for-loop
+for NUMBER in 1 2 3 4 5
+  touch datei_${NUMMER}.txt
+done
+echo 'Loop finished'
+\end{lstbash}
+%
+Here another example to insert code into the text:
+The command
+\lstinline{mv *txt copy} moves all textfiles into the folder
+\lstinline{copy}.
+
+To finish, we insert \texttt{bash}-code from a script file. We defined for this task
+the command \texttt{lstinputbash}:
+%
+\lstinputbash{for_loop.sh}
+
+\end{document}
