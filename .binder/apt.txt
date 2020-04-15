@@ -10,3 +10,4 @@ texlive-lang-german
 lmodern
 dvipng
 ghostscript
+nano
