@@ -13,4 +13,4 @@ dependencies:
   - pip
   - pip:
     - jupyterlab_latex
-    
+    - calysto_bash
