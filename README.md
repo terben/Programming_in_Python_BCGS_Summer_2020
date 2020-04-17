@@ -10,6 +10,6 @@ prior programming experience.
 
 ## Start of an interactive session
 
-- The following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=tree) launches an interactive `Jupyter-Notebook` session.
+- The following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=tree) launches an interactive `Jupyter Notebook` session.
 
-- The following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=lab) launches an interactive `Jupyter-Lab` session.
+- The following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=lab) launches an interactive `JupyterLab` session.
