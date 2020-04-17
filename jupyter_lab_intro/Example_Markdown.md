@@ -10,7 +10,7 @@ Here some *italic* text.
 
 Here some **bold** text.
 
-## Enumerations
+### Enumerations
 
 Here some itemization:
 - point 1
