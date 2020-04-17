@@ -26,6 +26,7 @@ Here some enumeration:
 
 Here some math with $\LaTeX$:
 \begin{equation}
+  \sum_{n=0}^{\infty} \frac{x^{n}}{n!} = \exp(x)
 \end{equation}
 
 ## Typesetting Code-blocks
