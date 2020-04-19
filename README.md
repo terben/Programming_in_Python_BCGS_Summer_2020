@@ -8,8 +8,12 @@ programming problems with the easy-to-learn, high-level programming
 language Python. The course specifically addresses students with no
 prior programming experience.
 
-## Start of an interactive session
+## Using the materials
+You can either use the materials within an interactive Web-session
+(see next section) or download them to your own machine. The latter option
+is described [here](https://github.com/terben/Programming_in_Python_BCGS_Summer_2020/tree/master/retrieve_materials).
 
+## Start of an interactive session
 - The following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=tree) launches an interactive `Jupyter Notebook` session.
 
 - The following button [![Binder](https://binderhub.astro.uni-bonn.de/badge_logo.svg)](https://binderhub.astro.uni-bonn.de/v2/gh/terben/Programming_in_Python_BCGS_Summer_2020/master?urlpath=lab) launches an interactive `JupyterLab` session.
