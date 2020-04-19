@@ -25,6 +25,6 @@ only needs to be done once for the whole course.
    user$ cd python_course_2018-04-10
    user$ jupyter notebook       # to start working on the notebooks
    ```
-4. Repeat step 3 when a newer version of the materials becomes available.
+4. Repeat step 3 whenever a newer version of the materials becomes available.
 
 
