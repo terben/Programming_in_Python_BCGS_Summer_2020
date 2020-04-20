@@ -68,3 +68,16 @@ Markdown supports the inclusion of images
 
 Here an image from the WEB:
 <img src="http://img.youtube.com/vi/Dvgn0Vt8WnA/0.jpg" width="400" height="200" />
+
+### Coloured text boxes
+<div class="alert alert-success">
+<b>Green text box.</b>
+<ul>
+    <li> Item 1 </li>
+    <li> Item 2 </li>
+</ul>
+</div>
+
+- Blue text box: alert-success -> alert-info
+- Yellow box: alert-success -> alert-warning
+- Yellow box: alert-success -> alert-danger
