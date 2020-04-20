@@ -1,17 +1,14 @@
 # Markdown examples
-
 This file gives examples of Markdown typesetting.
 
 ## Emphasis of text
-
 Here some normal text.
 
 Here some *italic* text.
 
 Here some **bold** text.
 
-### Enumerations
-
+## Enumerations
 Here some itemization:
 - point 1
 - point 2
@@ -23,14 +20,12 @@ Here some enumeration:
 3. point 3
 
 ## Mathematics with LaTeX
-
 Here some math with $\LaTeX$:
 \begin{equation}
   \sum_{n=0}^{\infty} \frac{x^{n}}{n!} = \exp(x)
 \end{equation}
 
 ## Typesetting Code-blocks
-
 Markdown can syntax-highlight and typeset code
 from all well-known languages.
 
@@ -66,3 +61,10 @@ print(a, b)
 
 ## Links
 More Markdown can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+## Include images
+Markdown supports the inclusion of images
+<img src="../Wednesday_2020-04-08/images/NGVS_mask.jpg" width="400" height="200" />
+
+Here an image from the WEB:
+<img src="http://img.youtube.com/vi/Dvgn0Vt8WnA/0.jpg" width="400" height="200" />
